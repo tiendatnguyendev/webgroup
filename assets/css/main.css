@@ -89,8 +89,9 @@ header {
 /* Header Middle */
 .header-middle{
     margin-top: 60px;
-    box-shadow: inset 0px -0.5px 0px #e6e6e6;
     text-align: center;
+    margin-bottom: 3px;
+    border-bottom: 1px solid #333333;
 }
 
 .header-middle .container {
@@ -133,13 +134,18 @@ header {
     display: flex;
     gap: 10px;
     align-items: center;
-    margin-left: 20px;
+    margin-left: 30%;
 }
 
 #advanced-search-options select {
     padding: 5px;
     border: 1px solid #ccc;
     border-radius: 4px;
+    margin-bottom: 5px;
+}
+
+#advanced-search-options label{
+    font-size: 16px;
 }
 
 .header-middle-left{
